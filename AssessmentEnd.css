@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(135deg, #4995c9, #2c1c65);
+}
+.score{
+    text-align: center;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:beige;
+    
+}

@@ -1,0 +1,45 @@
+body {
+    background-image: url("bg2.jpg");
+    background-size: 1440px 830px;
+}
+.main{
+    width:870px;
+    height:650px;
+    margin-left: 550px;
+    font-size: 25px;
+    padding-top: 50px;
+    color:darkslategray;
+}
+.head{
+    font-size: 40px;
+    color:darkslategray;
+    font-weight: 600;
+}
+.head2{
+    font-size: 30px;
+    color:darkslategray;
+    font-weight: 600;
+}
+.options{
+    display: flex;
+}
+.opt{
+    margin-right:40px;
+    color:darkslategray;
+}
+.btn{
+    width:800px;
+    height:40px;
+    font-size: 20px;
+    background-color: rgb(61, 61, 253);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    border-color: rgb(61, 61, 253);
+}
+.con{
+    font-size: 18px;
+}
+.contact{
+    margin-left: 600px;
+}

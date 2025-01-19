@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+.line1{
+    width:1440px;
+    height: 300px;
+    display: flex;
+}
+.one{
+    width:1000px;
+    height:240px;
+    padding-top: 60px;
+    background-color: rgb(245, 174, 174);
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.line2{
+    width:1440px;
+    height: 350px;
+    display: flex;
+}
+.two{
+    width:250px;
+    height:250px;
+    padding-top: 100px;
+    background-color: #E8DFF5;
+    text-align: center;
+    font-weight: 520;
+    font-size: 65px;
+    color:rgb(1, 1, 99);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.three{
+    background-color: white;
+    width:720px;
+    height:250px;
+    font-size:17px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+.four{
+    width:270px;
+    height:350px;
+    background-color: rgb(249, 55, 55);
+}
+.line3{
+    height:210px;
+    width:1440px;
+    display: flex;
+}
+.five{
+    height:170px;
+    width:700px;
+    background-color: rgb(159, 121, 224);
+    color: white;
+    padding-left:70px;
+    padding-right: 70px;
+    padding-top: 40px;
+}

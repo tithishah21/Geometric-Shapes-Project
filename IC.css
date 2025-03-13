@@ -7,25 +7,26 @@ body{
     text-align: center;
     color:#333333;
 }
-.eg{
-    border-radius: 8px;
-    border-color: #d7eaf3;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: #d7eaf3;
-    width:1000px;
-    height:200px;
-    margin-left:200px;
-    padding-top:40px;
-    margin-bottom: 30px;
-    padding-left:50px;
-    padding-right:50px;
-    font-size:20px;
-    border: 1px solid #cae7f5;
+.eg {
+    background-color: #cce6ff; /* Light blue */
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    max-height: 80px; /* Initially show only question */
 }
-.ans{
-    color:#555555;
+
+.ans {
+    display: none; /* Hide answer initially */
 }
-.eg:hover{
-    background-color: #cce7ff;
-    transform: scale(1.02);
+
+.eg.expanded {
+    max-height: 250px; /* Increase height on hover */
+}
+
+.eg.expanded .ans {
+    display: block; /* Show answer on hover */
 }

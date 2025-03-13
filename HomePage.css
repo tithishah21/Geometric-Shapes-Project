@@ -1,3 +1,39 @@
+
+.dark-mode .main{
+    background: #121212;
+}
+.dark-mode .msg{
+    color:#F5F5F5;
+    font-weight: bolder;
+}
+.dark-mode .navbar2  {
+    background-color: #0D1B2A;
+}
+.dark-mode .smallnavbar{
+    background-color: #1F3A5F;
+    color:#E0E0E0;
+}
+
+.dark-mode .quote1{
+    background-color: #4B0082;
+    color:#F8E9A1;
+}
+.dark-mode .quote2{
+    background-color: #9C6644;
+    color:#F8E9A1;
+}
+.dark-mode .quote3{
+    background-color: #6A8D73;
+    color:#F8E9A1;
+}
+.dark-mode .quote4{
+    background-color: #C44E64;
+    color:#F8E9A1;
+}
+
+/* Style for the flip container */
+/* Keep the two-column layout */
+
 body {
     margin: 0;
     padding: 0;

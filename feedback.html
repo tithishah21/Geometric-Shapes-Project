@@ -10,9 +10,9 @@
     <div class="main">
         <div class="head">How do you rate our overall experience?</div>
         <div class="options">
-            <div class="opt"><input type="radio" name="exc" value="excellent"/>Excellent</div>
-            <div class="opt"><input type="radio" name="avg" value="avg"/>Average</div>
-            <div class="opt"><input type="radio" name="bad" value="bad"/>Bad</div>
+            <div class="opt"><input type="radio" name="exc" value="excellent" required/>Excellent</div>
+            <div class="opt"><input type="radio" name="avg" value="avg" required/>Average</div>
+            <div class="opt"><input type="radio" name="bad" value="bad" required/>Bad</div>
         </div><br/>
         <div class="head2">Personal Details</div><br/>
         <table>
@@ -21,16 +21,16 @@
                 <td>Email:</td>
             </tr>
             <tr>
-                <td><input type="text" placeholder="Eg., Tithi Shah" size="40px" style="height: 30px;"/></td>
-                <td><input type="email" placeholder="Eg., abc@gmail.com" size="40px" style="height: 30px;"/></td>
+                <td><input type="text" placeholder="Eg., Tithi Shah" required size="40px" style="height: 30px;"/></td>
+                <td><input type="email" placeholder="Eg., abc@gmail.com" required size="40px" style="height: 30px;"/></td>
             </tr>
             <tr>
                 <td>Age:</td>
                 <td>Phone*</td>
             </tr>
             <tr>
-                <td><input type="number" size="40px" style="height: 30px; width:270px;"/></td>
-                <td><input type="tel" placeholder="Eg., +91 123XXXXXXX" size="40px" style="height: 30px;"/></td>
+                <td><input type="number" required size="40px" style="height: 30px; width:270px;"/></td>
+                <td><input type="tel" required placeholder="Eg., +91 123XXXXXXX" size="40px" style="height: 30px;"/></td>
             </tr>
             <tr>
                 <td>Grade:</td>
@@ -38,7 +38,7 @@
             </tr>
             <tr>
                 <td>
-                    <select name="select" style="height: 30px;width:280px;">
+                    <select name="select"required style="height: 30px;width:280px;">
                         <option value="1-5">1st-5th</option>
                         <option value="6-8">6th-8th</option>
                         <option value="9-10">9th-10th</option>
@@ -47,7 +47,7 @@
                     </select>
                 </td>
                 <td>
-                    <input type="date" size="40px" style="height: 30px;width:275px;"/>
+                    <input type="date"required  size="40px" style="height: 30px;width:275px;"/>
                 </td>
             </tr>
             <tr>
@@ -55,7 +55,7 @@
             </tr>
             <tr>
                 <td>
-                    <input type="text" placeholder="Share your feedback" size="70px" style="height: 80px; "/>
+                    <input type="text" required placeholder="Share your feedback" size="70px" style="height: 80px; "/>
                 </td>
             </tr>
         </table><br/>

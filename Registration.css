@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #131d4f;
     --secondary-color: #131d4f;
@@ -25,12 +26,15 @@ html,
 body {
     height: 100vh;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     position: relative;
     min-height: 100vh;
     overflow: hidden;
+    width: 100vw;
 }
 
 .row {
@@ -40,7 +44,7 @@ body {
 }
 
 .col {
-    width: 50%;
+    width: 90%;
 }
 
 .align-items-center {
@@ -52,7 +56,7 @@ body {
 
 .form-wrapper {
     width: 100%;
-    max-width: 28rem;
+    max-width: 50rem;
 }
 
 .form {
@@ -246,7 +250,6 @@ body {
     transform: translateX(0);
 }
 
-/* BACKGROUND */
 
 .container::before {
     content: "";
@@ -254,8 +257,8 @@ body {
     top: 0;
     right: 0;
     height: 100vh;
-    width: 300vw;
-    transform: translate(35%, 0);
+    width: 200vw;
+    transform: translate(25%, 0);
     background-image: linear-gradient(-45deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     transition: 1s ease-in-out;
     z-index: 6;
@@ -274,7 +277,6 @@ body {
     right: 50%;
 }
 
-/* RESPONSIVE */
 
 @media only screen and (max-width: 425px) {
 
@@ -289,9 +291,7 @@ body {
         right: 0;
     }
 
-    /* .container.sign-in .col.sign-up {
-        transform: translateY(100%);
-    } */
+
 
     .container.sign-in .col.sign-in,
     .container.sign-up .col.sign-up {

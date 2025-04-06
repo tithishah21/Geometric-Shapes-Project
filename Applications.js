@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             });
         },
-        { threshold: 0.2 } // Adjust visibility threshold
+        { threshold: 0.2 }
     );
 
     cards.forEach((card) => {
